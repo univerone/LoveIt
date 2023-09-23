@@ -105,10 +105,13 @@ other = "Share on"
 other = "Contents"
 
 [publishedOnDate]
-other = "published on {{ .Date }}"
+other = "Published on {{ .Date }}\t"
+
+[singleDateFormat]
+other = "January 2, 2006"
 
 [includedInCategories]
-other = "included in {{ .Categories }}"
+other = "Included in {{ .Categories }}"
 
 [wordCount]
 one = "One word"
